@@ -21,3 +21,5 @@ defmodule Chop do
 
 
 end
+
+Chop.guess(678, 1..1000)

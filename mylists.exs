@@ -74,10 +74,10 @@ defmodule MyList do
   def square([head|tail]), do: [head*head | square(tail)]
 
 end
-list = [10,122,43,982,27,10]
+# list = [10,122,43,982,27,10]
 
-IO.puts "#{MyList.max(list)}"
-IO.puts "#{MyList.sum(list)}"
+# IO.puts "#{MyList.max(list)}"
+# IO.puts "#{MyList.sum(list)}"
 IO.puts MyList.encode('jeffrey', 13)
 IO.puts MyList.caesar('wrsserl',13)
-IO.puts "#{inspect(MyList.span(1,3))}"
+# IO.puts "#{inspect(MyList.span(1,3))}"

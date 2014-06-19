@@ -12,10 +12,6 @@ solver = fn(n) ->
 end
 
 
-# IO.puts fizzbuzz.(0,0,0)
-# IO.puts fizzbuzz.(1,0,0)
-# IO.puts fizzbuzz.(0,1,0)
-# IO.puts fizzbuzz.(1,1,4)
 IO.puts solver.(10)
 IO.puts solver.(11)
 IO.puts solver.(12)
